@@ -1,6 +1,6 @@
 module.exports.config = {
   name: 'The Script of Everything',
-  author: 'Yan Maglinte',
+  author: 'Mot',
   version: '1.0',
   description: 'Allows you to input code here without the need for prefixes or names; it will execute automatically.',
   selfListen: false,
@@ -21,12 +21,12 @@ module.exports.run = async function({ event, args }) {
             elements: [
               {
                 title: 'Hey there newbie!', // The title of the generic message
-                subtitle: 'Thank you for using Pagebot. Leave a like on my repository and support my work.', // The subtitle of the message
+                subtitle: 'Thank you for using Pagebot.', // The subtitle of the message
                 image_url: 'https://i.ibb.co/dJzSv5Q/pagebot.jpg', // The image URL
                 buttons: [
                   {
                     type: 'web_url',
-                    url: 'https://www.facebook.com/yandeva.me',
+                    url: 'https://www.facebook.com/profile.php?id=61569790299591',
                     title: 'Check my Profile'
                   },
                   {
