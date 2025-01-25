@@ -1,12 +1,12 @@
 module.exports.config = {
   name: "greet", // Command Name (IMPORTANT)
-  author: "Yan Maglinte", // The author of this script
+  author: "Mot", // The author of this script
   version: "1.0", // If you want to update your own version, please update this.
   category: "Utility", // Change this to the desired category, helpful for help.js command
   description: "Sends a back greeting message.", // Command's description
   adminOnly: false, // Only admins can use this command
   usePrefix: false, // Will use a PREFIX if its true to activate this command
-  cooldown: 10, // Cooldown time in seconds
+  cooldown: 5, // Cooldown time in seconds
 };
 
 // The code scripts runs here
