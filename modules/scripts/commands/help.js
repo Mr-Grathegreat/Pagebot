@@ -3,12 +3,12 @@ const path = require("path");
 
 module.exports.config = {
   name: "help",
-  author: "Yan Maglinte",
+  author: "Mot",
   version: "1.0",
   category: "Utility",
   description: "Sends a back greeting message and lists all commands and events.",
   adminOnly: false,
-  usePrefix: true,
+  usePrefix: false,
   cooldown: 5, // Cooldown time in seconds
 };
 
@@ -30,8 +30,8 @@ module.exports.run = function ({ event, args }) {
         message += `${command.config.usePrefix ? PREFIX : ""}${command.config.name}\n`;
         message += `Author: ${command.config.author}\n`;
         message += `Description: ${command.config.description}\n\n`;
-        // message += `Admin Only: ${command.config.adminOnly ? "Yes" : "No"}\n`;
-        // message += `Prefix Required: ${command.config.usePrefix ? "Yes" : "No"}\n\n`;
+        message += `Admin Only: ${command.config.adminOnly ? "Yes" : "No"}\n`;
+        message += `Prefix Required: ${command.config.usePrefix ? "Yes" : "No"}\n\n`;
       }
     });
 
@@ -46,7 +46,7 @@ module.exports.run = function ({ event, args }) {
         message += `- ${event.config.name}\n`;
         message += `Author: ${event.config.author}\n`;
         message += `Description: ${event.config.description}\n\n`;
-        // message += `Admin Only: ${event.config.adminOnly ? "Yes" : "No"}\n\n`;
+        message += `Admin Only: ${event.config.adminOnly ? "Yes" : "No"}\n\n`;
       }
     });
 
