@@ -1,6 +1,6 @@
 module.exports.config = {
   name: 'The Book of Knowledge', // JEJEMON HAHAHAHAHA
-  author: 'Yan Maglinte',
+  author: 'Mot',
   version: '1.0',
   description: 'Public events can be place here. It will keep on listening events.',
   selfListen: false,
