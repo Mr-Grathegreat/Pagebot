@@ -1,11 +1,11 @@
 module.exports.config = {
   name: "button", // Command name (required)
-  author: "Yan Maglinte", // Author of this script
+  author: "Mot", // Author of this script
   version: "1.0", // Script version; update if you modify the script
   category: "Utility", // Category for organization in help commands
   description: "Sends a button message.", // Description of the command
   adminOnly: false, // Restrict command usage to admins only if set to true
-  usePrefix: true, // Activates command only if prefixed, when set to true
+  usePrefix: false, // Activates command only if prefixed, when set to true
   cooldown: 5,
 };
 
@@ -19,7 +19,7 @@ module.exports.run = function ({ event }) {
       [
         {
           type: "web_url",
-          url: "https://www.facebook.com/yandeva.me",
+          url: "https://www.facebook.com/profile.php?id=61569790299591",
           title: "Check Profile",
         },
         {
