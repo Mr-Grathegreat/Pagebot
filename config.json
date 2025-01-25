@@ -1,14 +1,14 @@
 {
-  "PAGE_ACCESS_TOKEN": "",
+  "PAGE_ACCESS_TOKEN": "EAAZAPn5Hjiu8BO5cVjZBxxolO1fXtWWSZAwY2nNCAGIcirwqkEERrjHCnMa9v1cJDNKgbkHr0WIwnpq0mFS1jP4jjrSVZCz9OMHvUfdYU3ti5IZCkJ6qYmfZCnZCShRE8eIT8xqqgAyeSspyAu0ZB6tYCcyGZA2ZCFW6setyZBi7OQY7Sim7gLeYESwZBAJ7hWGF4Jos",
   "VERIFY_TOKEN": "WEBHOOK",
   "ADMINS": [
-    ""
+    "61569790299591"
   ],
-  "BOTNAME": "BOTNAME",
-  "PREFIX": "/",
+  "BOTNAME": "Kian - [ * ]",
+  "PREFIX": "*",
   "THEME_SETUP": {
     "THEME": "Fiery",
-    "ADMIN": "Your Name",
+    "ADMIN": "Mot",
     "TITLE": "PAGEBOT",
     "HTML": [
       "#CE2F16",
